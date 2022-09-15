@@ -62,7 +62,12 @@ This package invokes the 1password cli directly.  You might use it to sign in to
 
 ```bash
 eval $(nix run github:kryptkitty/generate#op-cli signin)
-Enter the password for radguy@cool.net at my.1password.com:
+```
+
+```
+Enter the password for radguy@cool.net at my.1password.com: ********
+
+shell-with-op-session#
 ```
 
 
